@@ -60,7 +60,7 @@ let restaImpar1 = 0;
 let sumaPar2 = 0;
 let restaImpar2 = 0;
 
-// Operaciones para arrayNumeros1
+// arrayNumeros1
 for (let i = 0; i < arrayNumeros1.length; i++) {
     if (i % 2 === 0) { // Índice par
         sumaPar1 += arrayNumeros1[i];
@@ -69,7 +69,7 @@ for (let i = 0; i < arrayNumeros1.length; i++) {
     }
 }
 
-// Operaciones para arrayNumeros2
+// arrayNumeros2
 for (let i = 0; i < arrayNumeros2.length; i++) {
     if (i % 2 === 0) { // Índice par
         sumaPar2 += arrayNumeros2[i];
@@ -77,11 +77,11 @@ for (let i = 0; i < arrayNumeros2.length; i++) {
         restaImpar2 -= arrayNumeros2[i];
     }
 }
-console.log(sumaPar1)
-console.log(restaImpar1)
+console.log(`La suma de los valores con índice par del primer array da como resultado ${sumaPar1}`)
+console.log(`La resta de los valores con índice impar del primer array da como resultado ${restaImpar1}`)
 
-console.log(sumaPar2)
-console.log(restaImpar2)
+console.log(`La suma de los valores con índice par del segundo array da como resultado ${sumaPar2}`)
+console.log(`La resta de los valores con índice impar del segundo array da como resultado ${restaImpar2}`)
 // Hay que mostrar por consola cada resultado
 
 // ====================================================================================================
